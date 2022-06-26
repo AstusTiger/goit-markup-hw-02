@@ -1,0 +1,15 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #f5f7fa;
+}
+
+/* logo */
+.logo {
+    font-family: Raleway, sans-serif;
+}
+
+/* hero */
+.hero {
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
