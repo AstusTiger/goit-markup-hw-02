@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, Raleway, sans-serif;
     color: var(--main-text);
 }
 
@@ -31,6 +31,27 @@ body {
     color: var(black-text);
 }
 
+.menu-navigation:link {
+    color: var(--black-text);
+}
+
+.menu-navigation:visited {
+    color: var(--black-text);
+}
+
+.menu-navigation:hover {
+    color: var(--active-text);
+}
+
+.menu-navigation:focus {
+    outline: none;
+    color: var(--active-text);
+}
+
+.menu-navigation:active {
+    color: var(--active-text);
+}
+
 /* contacts */
 .contacts {
     font-size: 14px;
@@ -38,9 +59,21 @@ body {
     text-decoration: none;
 }
 
-.activate:hover,
-.activate:focus {
-    color: var(--active-text)
+.contacts:link {
+    color: var(--main-text);
+}
+
+.contacts:hover {
+    color: var(--active-text);
+}
+
+.contacts:focus {
+    outline: none;
+    color: var(--active-text);
+}
+
+.contacts:active {
+    color: var(--active-text);
 }
 
 /* hero */
@@ -60,17 +93,25 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-    color: var(--white-text);
+    color: var(--black-text);
     background-color: var(--light-background);
+    cursor: pointer;
 }
 
-.button-studio:hover,
+.button-studio:hover {
+    background-color: var(--active-text);
+    color: var(--white-text);
+}
+
 .button-studio:focus {
-    background-color: var(--light-background)
+    outline: none;
+    background-color: var(--active-text);
+    color: var(--white-text);
 }
 
 .button-studio:active {
-    background-color: var(--active-text)
+    background-color: var(--active-text);
+    color: var(--white-text);
 }
 
 .title {
@@ -82,7 +123,6 @@ body {
 }
 
 .text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     text-decoration: none;
@@ -113,7 +153,6 @@ body {
 }
 
 .position {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
     text-decoration: none;
@@ -130,14 +169,23 @@ body {
     line-height: 1.6;
     color: var(--black-text);
     background-color: var(--light-background);
+    cursor: pointer;
 }
-.buttons:hover,
+
+.buttons:hover {
+    background-color: var(--active-text);
+    color: var(--white-text);
+}
+
 .buttons:focus {
-    background-color: var(--light-background)
+    outline: none;
+    background-color: var(--active-text);
+    color: var(--white-text);
 }
 
 .buttons:active {
-    background-color: var(--active-text)
+    background-color: var(--active-text);
+    color: var(--white-text);
 }
 
 /* projects */
@@ -149,7 +197,6 @@ body {
 }
 
 .product {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     text-decoration: none;
@@ -162,12 +209,21 @@ body {
     text-decoration: none;
 }
 
-/* Активировать */
-.activate:hover,
-.activate:focus {
-    color: var(--active-text)
+.footer:link {
+    color: var(--main-text);
 }
 
+.footer:hover {
+    color: var(--active-text);
+}
+
+.footer:focus {
+    outline: none;
+}
+
+.footer:active {
+    color: var(--active-text);
+}
 
 /* variables */
 :root {
