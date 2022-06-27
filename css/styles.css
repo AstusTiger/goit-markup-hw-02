@@ -3,7 +3,9 @@ body {
     color: var(--main-text);
 }
 
-/* logo */
+/* STUDIO */
+
+/* logo-studio-portfolio */
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -59,12 +61,12 @@ body {
     font-size: 16px;
     line-height: 1.9;
     color: var(--white-text);
-    background-color: var(--main-text);
+    background-color: var(--light-background);
 }
 
 .button-studio:hover,
 .button-studio:focus {
-    background-color: var(--main-text)
+    background-color: var(--light-background)
 }
 
 .button-studio:active {
@@ -116,6 +118,56 @@ body {
     line-height: 1.2;
     text-decoration: none;
 }
+
+/* PORTFOLIO */
+
+/* buttons */
+.buttons {
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--black-text);
+    background-color: var(--light-background);
+}
+.buttons:hover,
+.buttons:focus {
+    background-color: var(--light-background)
+}
+
+.buttons:active {
+    background-color: var(--active-text)
+}
+
+/* projects */
+.projects {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--black-text);
+}
+
+.product {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    text-decoration: none;
+}
+
+/* footer */
+.footer {
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+}
+
+/* Активировать */
+.activate:hover,
+.activate:focus {
+    color: var(--active-text)
+}
+
 
 /* variables */
 :root {
