@@ -1,15 +1,129 @@
 body {
     font-family: Roboto, sans-serif;
-    background-color: #f5f7fa;
+    color: var(--main-text);
 }
 
 /* logo */
 .logo {
     font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.web {
+    color: var(--active-text);
+}
+
+.studio {
+    color: var(--ultra-black-text);
+}
+
+/* navigation */
+.menu-navigation {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    text-decoration: none;
+    color: var(black-text);
+}
+
+/* contacts */
+.contacts {
+    font-size: 14px;
+    line-height: 1.1;
+    text-decoration: none;
+}
+
+.activate:hover,
+.activate:focus {
+    color: var(--active-text)
 }
 
 /* hero */
 .hero {
-    color: #FFFFFF;
-    background-color: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-decoration: none;
+    color: var(--white-text);
+    background-color: var(--dark-background);
+}
+
+/* button-studio */
+.button-studio {
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--white-text);
+    background-color: var(--main-text);
+}
+
+.button-studio:hover,
+.button-studio:focus {
+    background-color: var(--main-text)
+}
+
+.button-studio:active {
+    background-color: var(--active-text)
+}
+
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.4;
+    text-decoration: none;
+    color: var(--black-text);
+}
+
+.text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+}
+
+.activity {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: var(--black-text);
+}
+
+.my-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: var(--black-text);
+}
+
+.member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: var(--black-text);
+}
+
+.position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+/* variables */
+:root {
+    --dark-background: #2F303A;
+    --light-background: #F5F4FA;
+    --active-text: #2196F3;
+    --main-text: #757575;
+    --white-text: #FFFFFF;
+    --black-text: #212121;
+    --ultra-black-text: #000000;
 }
