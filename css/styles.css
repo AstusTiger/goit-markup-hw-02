@@ -3,9 +3,9 @@ body {
     color: var(--main-text);
 }
 
-/* STUDIO */
+/* HEADER */
 
-/* logo-studio-portfolio */
+/* logo */
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -28,7 +28,7 @@ body {
     font-size: 14px;
     line-height: 1.1;
     text-decoration: none;
-    color: var(black-text);
+    color: var(--black-text);
 }
 
 .menu-navigation:link {
@@ -75,6 +75,9 @@ body {
 .contacts:active {
     color: var(--active-text);
 }
+
+/* MAIN */
+/* STUDIO */
 
 /* hero */
 .hero {
@@ -202,7 +205,7 @@ body {
     text-decoration: none;
 }
 
-/* footer */
+/* FOOTER */
 .footer {
     font-size: 14px;
     line-height: 1.7;
